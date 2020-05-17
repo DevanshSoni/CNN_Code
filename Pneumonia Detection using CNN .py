@@ -2,7 +2,7 @@
 # coding: utf-8
 # testing Environment
 # In[1]:
-
+# Hello
 
 import pandas as pd
 import numpy as np
@@ -86,7 +86,7 @@ test_set = test_datagen.flow_from_directory(
 model.fit(
         training_set,
         steps_per_epoch=100,
-        epochs=5,
+        epochs=1,
         validation_data=test_set,
         validation_steps=200)
 
