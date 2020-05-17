@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 # testing Environment
-# In[1]:
 # Hello
 
 import pandas as pd
