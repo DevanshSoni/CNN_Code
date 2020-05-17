@@ -2,7 +2,7 @@
 # coding: utf-8
 # testing My Code
 # Hello
-
+import os
 import pandas as pd
 import numpy as np
 from keras.models import Sequential
