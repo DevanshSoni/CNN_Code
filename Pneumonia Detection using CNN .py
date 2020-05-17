@@ -63,7 +63,7 @@ train_datagen = ImageDataGenerator(
         zoom_range=0.2,
         horizontal_flip=True)
 training_set = train_datagen.flow_from_directory(
-        'chest-xray-pneumonia/chest_xray/chest_xray/train/',
+        './chest-xray-pneumonia/chest_xray/chest_xray/train/',
         target_size=(64, 64),
         batch_size=32,
         class_mode='binary')
@@ -74,7 +74,7 @@ training_set = train_datagen.flow_from_directory(
 
 test_datagen = ImageDataGenerator(rescale=1./255)
 test_set = test_datagen.flow_from_directory(
-        'chest-xray-pneumonia/chest_xray/chest_xray/test/',
+        './chest-xray-pneumonia/chest_xray/chest_xray/test/',
         target_size=(64, 64),
         batch_size=32,
         class_mode='binary')
