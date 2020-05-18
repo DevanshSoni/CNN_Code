@@ -72,8 +72,6 @@ test_set = test_datagen.flow_from_directory(
 
 
 # In[36]:
-
-
 model.fit(
         training_set,
         steps_per_epoch=100,
@@ -81,6 +79,10 @@ model.fit(
         validation_data=test_set,
         validation_steps=200)
 
+score=model.evaluate(training_set,test_set,verbose=0)
+f=open('/model_files/output.txt','w')
+f.write(score[1])
+f.close()
 
 # In[ ]:
 

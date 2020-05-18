@@ -4,7 +4,7 @@
 # In[9]:
 
 
-import os
+# import os
 import re
 
 
@@ -126,7 +126,7 @@ file=open("/model_files/Pneumonia Detection using CNN .py","w")
 file.write(content)
 file.close()
 
-os.system("cd /model_files/ && git add . && git commit -m 'Hyper Parameters Tunned' && git push")
+# os.system("cd /model_files/ && git add . && git commit -m 'Hyper Parameters Tunned' && git push")
 # In[ ]:
 
 
