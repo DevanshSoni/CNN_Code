@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# testing My Code
-# Hello
+# testing
 import os
 import pandas as pd
 import numpy as np
